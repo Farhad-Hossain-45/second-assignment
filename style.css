@@ -1,5 +1,7 @@
 :root{
     --prymary-color: #FF42A5;
+    --secondary-color: #0B0223;
+    --third-color: #8758F1;
 }
 *{
     margin: 0;
@@ -58,6 +60,9 @@ nav ul li{
     display: flex;
    justify-content: space-between;
     align-items: center;
+   background-image: url(./images/group-14.png);
+   background-size: contain;
+   background-repeat: no-repeat;
    
     
 }
@@ -71,12 +76,12 @@ nav ul li{
   
 
 .banner-title{
-    color: #0B0223;
+    color: var(--secondary-color);
     font-weight: 600;
     font-size: 2.5rem;
 }
 .goat-title{
-    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-image: linear-gradient(180deg, #F948B2 10%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -102,9 +107,75 @@ nav ul li{
 .fa-download{
     margin: 0.8rem 0;
 }
+main{
+    padding: 100px 240px;
+}
+.online-content{
+    text-align: center;
+    
+}
+.online-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.online-span{
+    background: linear-gradient(180deg, #F948B2 10%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-discription{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #534C64;
+    margin-top: 0.8rem;
+}
+.backround-img{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./images/Rectangle\ 7.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 234px;
+    border: 1.5px solid #F948B2;
 
-
-
+}
+.online-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    
+    
+}
+.online-backround-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50% 0;
+    gap: 1rem;
+    
+}
+.online-img{
+    width: 200px;
+    height: 234px;
+}
+.watch-now{
+    color: var(--prymary-color);
+}
+.inline-img-discription{
+    color: #534C64;
+    font: 500;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.watch-now-discription{
+    color: #534C64;
+    font: 500;
+    font-size: 0.8rem;
+}
 
 
 
@@ -116,7 +187,7 @@ nav ul li{
     nav{
         flex-direction: column;
         gap: 2.5rem;
-        width: 110%;
+        width: 100%;
         padding: 20px;
     }
     nav ul{
@@ -130,11 +201,23 @@ nav ul li{
     .banner-container{
         flex-direction: column-reverse;
         padding: 20px;
+        background-image: none;
     }
     .banner-photo{
         margin: 1.5rem 0;
         width: 270px;
         height: 265px;
+    }
+    main{
+        padding: 20px;
+    }
+    .online-container{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .backround-img{
+        width: 200px;
+        height: 280px;
     }
 }       
            
@@ -159,9 +242,33 @@ nav ul li{
     .banner-container{
         flex-direction: column-reverse;
         padding: 20px;
+        background-image: none;
     }
     .banner-photo{
         margin: 1.5rem 0;
     }
+    main{
+        padding: 20px;
+    }
+    .online-container{
+        flex-wrap: wrap;
+        padding:  35px 120px;
+    }
+    .backround-img{
+        width: 210px;
+        height: 280px;
+    }
+    .inline-img-discription{
+        font-size: 0.5rem;
+    }
+    .watch-now-discription{
+        
+        font-size: 0.5rem;
+    }
+    .online-img{
+        width: 210px;
+        height: 280px;
+    }
+    
         
 }
