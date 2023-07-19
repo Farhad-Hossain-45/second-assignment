@@ -225,9 +225,35 @@ nav ul li{
     border-radius: 8px;
     border: 2px solid #FFF;
 }
+.games-section button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+.games-section {
+    padding: 50px 240px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 
-
-
+}
+.games-btn-img{
+    width: 40px;
+    height: 40px;
+}
+.gamed-btn{
+    border-radius: 50px;
+    border: none;
+    
+}
+.gamed-btn:hover{
+    color: var(--prymary-color);
+    border: 1px solid var(--prymary-color);
+    box-shadow: 2px 4px;
+}
 
 
 
@@ -279,6 +305,7 @@ nav ul li{
     .play-section{
         padding: 20px;
         margin-left: 15px;
+        
     }
     .play-content{
         margin-right: 20px;
@@ -300,6 +327,11 @@ nav ul li{
         position: relative;
         top: -70px;
         right: 70px;
+    }
+    .games-section{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+       
     }
     
       
