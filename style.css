@@ -132,16 +132,7 @@ nav ul li{
     color: #534C64;
     margin-top: 0.8rem;
 }
-.backround-img{
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./images/Rectangle\ 7.png), lightgray 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 450px;
-    height: 234px;
-    border: 1.5px solid #F948B2;
 
-}
 .online-container{
     display: flex;
     justify-content: space-between;
@@ -150,15 +141,7 @@ nav ul li{
     
     
 }
-.online-backround-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50% 0;
-    gap: 1rem;
-    
-}
+
 .online-img{
     width: 200px;
     height: 234px;
@@ -365,10 +348,7 @@ footer{
         flex-direction: column;
         margin-left: 80px;
     }
-    .backround-img{
-        width: 200px;
-        height: 275px;
-    }
+    
     .play-section{
         flex-direction: column;
     }
@@ -448,10 +428,7 @@ footer{
         flex-wrap: wrap;
         padding:  35px 120px;
     }
-    .backround-img{
-        width: 210px;
-        height: 280px;
-    }
+   
     .inline-img-discription{
         font-size: 0.5rem;
     }
