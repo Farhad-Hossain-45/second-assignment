@@ -248,10 +248,11 @@ nav ul li{
     border-radius: 50px;
     border: none;
     
+    border: 1px solid transparent;
 }
 .gamed-btn:hover{
     color: var(--prymary-color);
-    border: 1px solid var(--prymary-color);
+    border-color: var(--prymary-color);
     box-shadow: 2px 4px;
 }
 .games-btn-discription{
@@ -305,11 +306,15 @@ footer{
     text-decoration: none;
 }
 .footer-icon-btn > a{
+    
+    text-decoration: none;
+  
+}
+.footer-icon-color {
     font-size: 1.5rem;
     text-decoration: none;
     background-color: #0B0223;
     color: white;
-    text-decoration: none! important;
 }
 .item ul li{
     font-size: 0.5rem;
@@ -416,15 +421,7 @@ footer{
     
       
     
-}       
-           
-        
-        
-  
-        
-    
-    
-    
+} 
 
 @media screen and (min-width: 576px) and (max-width: 992px){
     nav{
@@ -517,3 +514,12 @@ footer{
     
         
 }
+           
+        
+        
+  
+        
+    
+    
+    
+
